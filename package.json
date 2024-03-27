@@ -1,0 +1,27 @@
+{
+  "name": "rxjs-multi-subject",
+  "version": "0.0.1",
+  "description": "an RxJS special subject, that allows to send differnt events to every subscriber",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -r build ; tsc && tsc -p tsconfig.esm.json && cp package.json README.md build",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "types": "./dist/cjs/multi-subject.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/cjs/multi-subject.d.ts",
+      "node": "./dist/cjs/multi-subject.js",
+      "require": "./dist/cjs/multi-subject.js",
+      "default": "./dist/esm/multi-subject.js"
+    }
+  }
+}
