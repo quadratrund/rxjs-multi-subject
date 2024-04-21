@@ -9,6 +9,12 @@
   },
   "author": "Quadratrund",
   "license": "MIT",
+  "homepage": "https://github.com/quadratrund/rxjs-multi-subject",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quadratrund/rxjs-multi-subject.git"
+  },
+  "keywords": ["RxJS", "Observables"],
   "dependencies": {
     "rxjs": ">=6.0.0"
   },
