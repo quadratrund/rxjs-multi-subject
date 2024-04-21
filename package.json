@@ -1,6 +1,6 @@
 {
   "name": "rxjs-multi-subject",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "an RxJS special subject, that allows to send differnt events to every subscriber",
   "main": "index.js",
   "scripts": {
