@@ -7,8 +7,8 @@
     "build": "rm -r build ; tsc && tsc -p tsconfig.esm.json && cp package.json README.md build",
     "tsc": "tsc"
   },
-  "author": "",
-  "license": "",
+  "author": "Quadratrund",
+  "license": "MIT",
   "dependencies": {
     "rxjs": "^7.8.1"
   },
